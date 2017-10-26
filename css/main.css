@@ -1,3 +1,148 @@
-/*
- * Estilos de tu proyecto
- */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/* NAVBAR */
+
+nav {
+	/*outline: 1px solid red;*/
+	height: 115px;
+	width: 100%;
+	position: fixed;
+	display: inline-block;
+	color: #fff;
+	z-index: 1000;
+}
+
+.nav-logo {
+	/*outline: 1px solid yellow;*/
+	display: inline-block;
+	box-sizing: border-box;
+	width: 57.6%;
+	height: 73px;
+	padding: 40px 0 0 80px;
+}
+
+.nav-logo img {
+	height: 45px;
+}
+
+#header {
+	top: 0;
+	position: relative;
+	width: 100%;
+}
+
+.header-cover {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	z-index: 0;
+	vertical-align: bottom;
+	padding-top: 115px;
+	background: url(../assets/images/hero.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.nav-botones {
+	display: inline-block;
+	width: 42.4%;
+	float: right;
+}
+
+.nav-botones li {
+	display: inline-block;
+	width: 95px;
+	font-size: 18px;
+	vertical-align: bottom;
+}
+
+.header-anuncio {
+	width: 42.5%;
+	height: 417px;
+	background-color: #fff;
+	float: right;
+	position: relative;
+	z-index: 2;
+	display: inline-block;
+}
+
+.header-space {
+	/*outline: 1px solid cyan;*/
+	display: inline-block;
+	width: 100%;
+	height: 115px;
+	background: linear-gradient(transparent, #76278f);
+	position: relative;
+	top: -115px;
+	z-index: 1;
+	
+}
+
+
+.seccion-1 {
+	outline: 1px solid orange;
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	z-index: 3;
+	top: -120px;
+	background: linear-gradient(#76278F, #2B1E66);
+	box-sizing: border-box;
+}
+
+.col-1 {
+	outline: 1px solid limegreen;
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	width: 100%;
+	padding: 60px 10.7% 60px 11.86%;
+	height: auto;
+}
+
+.seccion-1-texto {
+	margin-bottom: 60px;
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+}
+
+.seccion-1-texto h3 {
+	font-size: 25px;
+	font-weight: 400;
+	display: inline-block;
+}
+
+.seccion-1-texto p {
+	margin: 20px 0 0 0; 
+	line-height: 1.5;
+}
+
+.col-1 img {
+	outline: 1px solid darkorange;
+	width: 50%;
+	float: left;
+}
